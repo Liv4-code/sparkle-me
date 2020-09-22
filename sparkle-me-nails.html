@@ -3,9 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <title>Sparkle Me Nails</title>
 </head>
 <body>
-    
+    <!--The body-container class specifies the middle section containing the sites content.-->
+    <div class="body-container">
+        <header>        
+            <!--Logo container is the circle in which the logo will be placed.-->
+            <div class="logo-container">
+                <!--Placing logo img inside circle logo container.-->
+                <img src="images/logonails.jpg" alt="Sparkle Me Logo" class="logo">
+            </div>
+            <!--This is where our navigation bar starts.-->
+            <div class="navbar-container">
+                <ul class="navbar">
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+    </header>
+    <main>
+        <!--About section starts directly after navbar-->
+        <div class="about-container">
+            <div class="div8" id="eighthDiv" title="newdiv" style="background-color: pink;">Hello World</div><h2>About Sparkle Me Nails</h2> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores culpa perspiciatis, fugiat repellat accusamus nulla molestias, soluta voluptas dolor labore repudiandae vel expedita adipisci mollitia facilis enim, similique repellendus necessitatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id odit nobis nihil consequuntur tempore fugit debitis ullam eum? Beatae, quibusdam vero quam voluptatibus molestias cum! Alias fugiat quod architecto. Culpa.</p>
+        </div>
+        <img id="nailPic1" src="images/nails1.jpg" alt="Gel Manicure">
+        <img id="nailPic2" src="images/nails2.jpg" alt="Gel Manicure">
+        <img id="nailPic3" src="images/nails3.jpg" alt="Gel Manicure">
+        <img id="nailPic4" src="images/nails4.jpg" alt="Gel Manicure">
+        <img id="nailPic5" src="images/nails6.jpg" alt="Gel Manicure">
+        <!--Services and their list of prices.-->
+        <div class="services">
+            <h2>Services:</h2>
+            <table>
+                <tbody><tr>
+                    <td class="table-row-left">Soak-Off</td>
+                    <td>R60</td>
+                </tr>
+                <tr>
+                    <td class="table-row-left">Acrylic Fill</td>
+                    <td>R180</td>
+                </tr>
+                <tr>
+                    <td class="table-row-left">Nail Art (per nail)</td>
+                    <td>R20</td>
+                </tr>
+                <tr>
+                    <td class="table-row-left">Gel Manicure</td>
+                    <td>R180</td>
+                </tr>
+                <tr>
+                    <td class="table-row-left">Acrylic Manicure</td>
+                    <td>R290</td>
+                </tr>
+                <tr>
+                    <td class="table-row-left">Polygel Manicure</td>
+                    <td>R290</td>
+                </tr>
+                <tr>
+                    <td class="table-row-left">Pedicure</td>
+                    <td>R200</td>
+                </tr>
+                <tr>
+                    <td class="table-row-left">MAN-cure</td>
+                    <td id="cat">R150</td>
+                </tr>
+            </tbody></table>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-form">
+                <h3>Book An Appointment</h3>
+                <form>
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="text" name="number" value="+27" placeholder="Number">
+                    <input type="text" name="email" placeholder="E-mail for booking confirmation">
+                    <textarea name="message" placeholder="How would you like to be sparkled?..."></textarea>
+                    <input type="submit" name="submit">
+                </form>
+            </div>
+            <div class="footer-bottom">© Davu Holdings | Designed by Olivia Scholtz</div>
+        </div>
+    </footer>
+    </div>
 </body>
 </html>
